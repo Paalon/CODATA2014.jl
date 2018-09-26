@@ -1,0 +1,7 @@
+name = "CODATA2014"
+uuid = "d3f93c28-c0e9-11e8-2b49-2311a8154f18"
+authors = ["Koki Fushimi <paalon1936@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
