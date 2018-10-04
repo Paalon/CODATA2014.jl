@@ -6,6 +6,7 @@ module CODATA2014
 
 export Constants
 
+# freqeuntly used constants defined in CODATA
 export
     AtomicMassConstant,
     AvogadroConstant,
@@ -30,10 +31,14 @@ export
     SpeedOfLightInVacuum,
     StefanBoltzmannConstant
 
+# other frequently used constants
+export
+    UnifiedAtomicMassUnit
+
 include("FundamentalPhysicalConstant.jl")
 include("Constants.jl")
 
-# Frequently used constants [defined in CODATA]
+# Frequently used constants (defined in CODATA)
 
 const AtomicMassConstant = Constants["atomic mass constant"].value
 const AvogadroConstant = Constants["Avogadro constant"].value
@@ -58,7 +63,11 @@ const RydbergConstant = Constants["Rydberg constant"].value
 const SpeedOfLightInVacuum = Constants["speed of light in vacuum"].value
 const StefanBoltzmannConstant = Constants["Stefan-Boltzmann constant"].value
 
-# Symbolic notations for frequently used constants [defined in CODATA]
+# Other frequently used constants
+
+const UnifiedAtomicMassUnit = Constants["unified atomic mass unit"].value
+
+# Symbolic notations for frequently used constants (defined in CODATA)
 
 const m_u = AtomicMassConstant
 const N_A = AvogadroConstant
@@ -84,5 +93,9 @@ const R_∞ = RydbergConstant
 const c = SpeedOfLightInVacuum
 const c_0 = SpeedOfLightInVacuum
 const σ = StefanBoltzmannConstant
+
+# Symbolic notations for other frequently used constants
+
+const u = UnifiedAtomicMassUnit
 
 end # module
