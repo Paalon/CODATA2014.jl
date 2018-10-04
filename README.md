@@ -3,6 +3,15 @@
 CODATA Internationally recommended 2014 values of the Fundamental Physical Constants.
 This module references [The NIST Reference on Constants, Units, and Uncertainty](https://physics.nist.gov/cuu/Constants/).
 
+## Supported versions
+
+| Version | is supported |
+|:---|:---:|
+| 1.0 | yes |
+| 0.7 | yes |
+| 0.6 | yes |
+| 0.5 | no |
+
 ## How to use
 
 ```julia
