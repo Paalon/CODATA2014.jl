@@ -1,3 +1,7 @@
+if VERSION < v"0.7"
+    __precompile__()
+end
+
 module CODATA2014
 
 export Constants

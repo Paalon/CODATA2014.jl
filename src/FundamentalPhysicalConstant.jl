@@ -1,3 +1,7 @@
+if VERSION < v"0.7"
+    using Missings
+end
+
 struct FundamentalPhysicalConstant
     value::Float64
     uncertainty::Float64
