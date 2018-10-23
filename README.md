@@ -14,7 +14,7 @@ This module references [The NIST Reference on Constants, Units, and Uncertainty]
 
 ## How to use
 
-Frequently used constants (defined in CODATA) are exported by their name (like `SpeedOfLightInVacuum`). Other constants or detail information (uncertainty, unit) are available from `CODATA2014.Constants`. It has all of the information about the CODATA2014 constants. [This is the list of available constants](https://github.com/Paalon/CODATA2014.jl/blob/master/src/allascii.csv).
+[Frequently used constants](https://physics.nist.gov/cgi-bin/cuu/Category?view=html&Frequently+used+constants.x=68&Frequently+used+constants.y=17) are exported by their name (like `SpeedOfLightInVacuum`). Other constants or detail information (uncertainty, unit) are available from `CODATA2014.Constants`. It has all of the information about the CODATA2014 constants. [This is the list of available constants](https://github.com/Paalon/CODATA2014.jl/blob/master/src/allascii.csv).
 
 ```julia
 julia> using CODATA2014
